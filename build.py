@@ -3,10 +3,13 @@
 Build pairs.json from hifzlink seed (curated) + Waqar144 data (pending).
 
 Output schema per entry:
-  {"ayah1": "s:a", "ayah2": "s:a", "category": "...", "note": "...", "status": "curated|pending"}
+  {"ayah1": "s:a", "ayah2": "s:a", "category": "...", "note": "...", "status": "curated|pending|dropped"}
 
 Pairs are canonical: ayah1 has a lower absolute number than ayah2.
 Multi-verse block entries from Waqar144 are skipped.
+
+Re-running this script preserves existing curated and dropped entries.
+Only new Waqar144 pairs not already in pairs.json are added as pending.
 """
 
 import json
@@ -69,6 +72,22 @@ def extract_seed_pairs(seeds, ref_to_abs):
     return pairs
 
 
+def load_existing(path, ref_to_abs):
+    """Load existing pairs.json; return dict of canonical key -> entry."""
+    try:
+        with open(path) as f:
+            existing = json.load(f)
+    except FileNotFoundError:
+        return {}
+    result = {}
+    for entry in existing:
+        a1 = ref_to_abs.get(entry["ayah1"])
+        a2 = ref_to_abs.get(entry["ayah2"])
+        if a1 and a2:
+            result[canonical(a1, a2)] = entry
+    return result
+
+
 def main():
     with open(QURAN_JSON) as f:
         quran = json.load(f)
@@ -80,45 +99,51 @@ def main():
     abs_to_ref, ref_to_abs = build_maps(quran)
     waqar_pairs = extract_waqar_pairs(waqar, abs_to_ref)
     seed_pairs  = extract_seed_pairs(seeds, ref_to_abs)
+    existing    = load_existing(OUTPUT, ref_to_abs)
 
-    overlap = waqar_pairs & set(seed_pairs.keys())
-    gap     = waqar_pairs - set(seed_pairs.keys())
+    # Keys already reviewed (curated or dropped) -- do not overwrite
+    reviewed = {k for k, v in existing.items() if v["status"] in ("curated", "dropped")}
 
-    print(f"Overlap (Waqar & seed): {len(overlap)}")
-    print(f"Gap (Waqar only): {len(gap)}")
+    gap = waqar_pairs - set(seed_pairs.keys())
 
+    all_keys = set(seed_pairs.keys()) | gap
     output = []
 
-    # Curated pairs from seed (sorted by ayah1 then ayah2)
-    for key in sorted(seed_pairs.keys()):
+    for key in sorted(all_keys):
         a1, a2 = key
-        meta = seed_pairs[key]
-        output.append({
-            "ayah1":    abs_to_ref[a1],
-            "ayah2":    abs_to_ref[a2],
-            "category": meta["category"],
-            "note":     meta["note"],
-            "status":   "curated",
-        })
-
-    # Pending pairs from Waqar144 not in seed
-    for key in sorted(gap):
-        a1, a2 = key
-        output.append({
-            "ayah1":    abs_to_ref[a1],
-            "ayah2":    abs_to_ref[a2],
-            "category": "",
-            "note":     "",
-            "status":   "pending",
-        })
+        if key in reviewed:
+            output.append(existing[key])
+        elif key in seed_pairs:
+            meta = seed_pairs[key]
+            output.append({
+                "ayah1":    abs_to_ref[a1],
+                "ayah2":    abs_to_ref[a2],
+                "category": meta["category"],
+                "note":     meta["note"],
+                "status":   "curated",
+            })
+        else:
+            # Preserve pending note/category if already partially worked
+            prev = existing.get(key, {})
+            output.append({
+                "ayah1":    abs_to_ref[a1],
+                "ayah2":    abs_to_ref[a2],
+                "category": prev.get("category", ""),
+                "note":     prev.get("note", ""),
+                "status":   "pending",
+            })
 
     with open(OUTPUT, "w") as f:
         json.dump(output, f, indent=2, ensure_ascii=False)
         f.write("\n")
 
+    curated = sum(1 for x in output if x["status"] == "curated")
+    pending = sum(1 for x in output if x["status"] == "pending")
+    dropped = sum(1 for x in output if x["status"] == "dropped")
     print(f"\nWrote {len(output)} total pairs to {OUTPUT}")
-    print(f"  curated: {len(seed_pairs)}")
-    print(f"  pending: {len(gap)}")
+    print(f"  curated: {curated}")
+    print(f"  pending: {pending}")
+    print(f"  dropped: {dropped}")
 
 
 if __name__ == "__main__":
