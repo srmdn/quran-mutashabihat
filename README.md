@@ -26,7 +26,7 @@ All pairs are stored in `pairs.json` as a flat array:
 | `ayah2` | `"surah:ayah"` | Second verse reference (higher absolute number) |
 | `category` | string | Similarity type (see below); empty for pending pairs |
 | `note` | string | Human-readable explanation of how the verses differ; empty for pending pairs |
-| `status` | `"curated"` or `"pending"` | `curated` = reviewed with category + note; `pending` = sourced from Waqar144, not yet reviewed |
+| `status` | `"curated"`, `"pending"`, or `"dropped"` | `curated` = reviewed with category + note; `pending` = sourced from Waqar144, not yet reviewed; `dropped` = reviewed and rejected (note explains why) |
 
 ### Categories
 
@@ -59,7 +59,7 @@ Multi-verse block entries from that dataset are excluded (single-verse pairs onl
 
 ## Usage
 
-Consumers should filter by `status: "curated"` for production use. Pending pairs have not been reviewed and may contain errors or noise.
+Consumers should filter by `status: "curated"` for production use. Pending pairs have not been reviewed. Dropped pairs were reviewed and rejected (the `note` field explains why).
 
 ```js
 const pairs = require('./pairs.json');
