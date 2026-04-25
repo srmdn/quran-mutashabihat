@@ -106,7 +106,8 @@ def main():
 
     gap = waqar_pairs - set(seed_pairs.keys())
 
-    all_keys = set(seed_pairs.keys()) | gap
+    # Include all reviewed pairs so find_candidates.py curations are preserved on rebuild
+    all_keys = set(seed_pairs.keys()) | gap | set(reviewed)
     output = []
 
     for key in sorted(all_keys):

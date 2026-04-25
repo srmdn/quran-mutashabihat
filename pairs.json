@@ -70,6 +70,13 @@
     "status": "dropped"
   },
   {
+    "ayah1": "2:27",
+    "ayah2": "13:25",
+    "category": "lafzi",
+    "note": "Both describe those who break Allah's covenant, sever what He commanded to be joined, and spread corruption. 2:27 ends 'they are the losers'; 13:25 ends 'theirs is the curse and the evil abode.'",
+    "status": "curated"
+  },
+  {
     "ayah1": "2:33",
     "ayah2": "7:10",
     "category": "",
@@ -137,6 +144,13 @@
     "ayah2": "5:20",
     "category": "word_swap",
     "note": "2:40 'ya bani Isra'il udhkuru ni'mati allati an'amtu 'alaykum' and 5:20 'ya qawmi udhkuru ni'mat Allah 'alaykum' both begin with the reminder of Allah's favor — the Baqarah address is to Bani Isra'il while Al-Ma'idah quotes Musa addressing his people.",
+    "status": "curated"
+  },
+  {
+    "ayah1": "2:47",
+    "ayah2": "2:122",
+    "category": "lafzi",
+    "note": "Identical call to Bani Israel to remember Allah's favor and their elevation above all peoples, repeated within Al-Baqarah.",
     "status": "curated"
   },
   {
@@ -418,6 +432,13 @@
     "category": "",
     "note": "",
     "status": "pending"
+  },
+  {
+    "ayah1": "2:134",
+    "ayah2": "2:141",
+    "category": "lafzi",
+    "note": "Identical verse repeated within Al-Baqarah: each nation is accountable for its own deeds and will not be asked about what others did.",
+    "status": "curated"
   },
   {
     "ayah1": "2:135",
@@ -1533,6 +1554,13 @@
     "status": "pending"
   },
   {
+    "ayah1": "4:48",
+    "ayah2": "4:116",
+    "category": "lafzi",
+    "note": "Both state Allah does not forgive shirk but forgives lesser sins for whom He wills. The mushrik in 4:48 has invented a tremendous sin (إِثْمًا عَظِيمًا); in 4:116 has strayed far astray (ضَلَّ ضَلَالًا بَعِيدًا).",
+    "status": "curated"
+  },
+  {
     "ayah1": "4:51",
     "ayah2": "47:22",
     "category": "",
@@ -2108,6 +2136,13 @@
   },
   {
     "ayah1": "6:10",
+    "ayah2": "21:41",
+    "category": "lafzi",
+    "note": "Identical verse: previous messengers were mocked, but the mockers were enveloped by what they ridiculed.",
+    "status": "curated"
+  },
+  {
+    "ayah1": "6:10",
     "ayah2": "27:68",
     "category": "",
     "note": "",
@@ -2189,6 +2224,13 @@
     "category": "",
     "note": "",
     "status": "pending"
+  },
+  {
+    "ayah1": "6:21",
+    "ayah2": "10:17",
+    "category": "lafzi",
+    "note": "Nearly identical: who is more unjust than one who fabricates lies against Allah or denies His signs? 6:21 (وَمَنْ) ends with الظَّالِمُونَ; 10:17 (فَمَنْ) ends with الْمُجْرِمُونَ.",
+    "status": "curated"
   },
   {
     "ayah1": "6:21",
@@ -3108,6 +3150,13 @@
     "status": "pending"
   },
   {
+    "ayah1": "7:54",
+    "ayah2": "10:3",
+    "category": "lafzi",
+    "note": "Both open with Allah creating the heavens and earth in six days then establishing on the Throne. 7:54 continues with the night covering the day in swift pursuit; 10:3 continues with 'He directs all affairs' (يُدَبِّرُ الْأَمْرَ).",
+    "status": "curated"
+  },
+  {
     "ayah1": "7:56",
     "ayah2": "25:47",
     "category": "",
@@ -3277,6 +3326,13 @@
   },
   {
     "ayah1": "7:65",
+    "ayah2": "11:50",
+    "category": "lafzi",
+    "note": "Both narrate Hud's call to Ad to worship Allah alone. 7:65 ends 'will you not fear?' (أَفَلَا تَتَّقُونَ); 11:50 ends 'you are only fabricators' (إِنْ أَنتُمْ إِلَّا مُفْتَرُونَ).",
+    "status": "curated"
+  },
+  {
+    "ayah1": "7:65",
     "ayah2": "23:23",
     "category": "",
     "note": "",
@@ -3372,6 +3428,20 @@
     "category": "",
     "note": "",
     "status": "pending"
+  },
+  {
+    "ayah1": "7:73",
+    "ayah2": "7:85",
+    "category": "lafzi",
+    "note": "Salih (to Thamud) and Shu'ayb (to Madyan) both open with the same call: worship Allah alone, a clear proof has come from your Lord. Each continues with prophet-specific content.",
+    "status": "curated"
+  },
+  {
+    "ayah1": "7:73",
+    "ayah2": "11:64",
+    "category": "lafzi",
+    "note": "Both warn Thamud about the she-camel of Allah as a sign for them. 7:73 threatens 'a painful punishment' (عَذَابٌ أَلِيمٌ); 11:64 threatens 'an imminent punishment' (عَذَابٌ قَرِيبٌ).",
+    "status": "curated"
   },
   {
     "ayah1": "7:74",
@@ -4060,6 +4130,13 @@
     "status": "pending"
   },
   {
+    "ayah1": "9:33",
+    "ayah2": "61:9",
+    "category": "lafzi",
+    "note": "Identical verse about Allah sending His Messenger with guidance and the religion of truth to make it prevail over all religions.",
+    "status": "curated"
+  },
+  {
     "ayah1": "9:35",
     "ayah2": "12:39",
     "category": "",
@@ -4219,6 +4296,13 @@
     "category": "",
     "note": "",
     "status": "pending"
+  },
+  {
+    "ayah1": "9:73",
+    "ayah2": "66:9",
+    "category": "lafzi",
+    "note": "Identical command to the Prophet to strive against disbelievers and hypocrites and be stern with them; their abode is Hell.",
+    "status": "curated"
   },
   {
     "ayah1": "9:80",
@@ -5208,6 +5292,13 @@
     "status": "pending"
   },
   {
+    "ayah1": "11:110",
+    "ayah2": "41:45",
+    "category": "lafzi",
+    "note": "Nearly identical: Moses was given the Book and people disputed over it; but for a prior divine word, judgment would have been passed. Differs only in the pause mark after the first clause.",
+    "status": "curated"
+  },
+  {
     "ayah1": "11:111",
     "ayah2": "42:14",
     "category": "",
@@ -5724,6 +5815,13 @@
     "category": "",
     "note": "",
     "status": "pending"
+  },
+  {
+    "ayah1": "15:29",
+    "ayah2": "38:72",
+    "category": "lafzi",
+    "note": "Identical divine command: when Allah has fashioned Adam and breathed His spirit into him, the angels must prostrate.",
+    "status": "curated"
   },
   {
     "ayah1": "15:30",
@@ -7833,6 +7931,13 @@
     "status": "pending"
   },
   {
+    "ayah1": "27:3",
+    "ayah2": "31:4",
+    "category": "lafzi",
+    "note": "Identical description of believers: they establish prayer, give zakat, and have firm certainty in the Hereafter. Repeated in Al-Naml (27) and Luqman (31).",
+    "status": "curated"
+  },
+  {
     "ayah1": "27:6",
     "ayah2": "28:28",
     "category": "",
@@ -7873,6 +7978,13 @@
     "category": "",
     "note": "",
     "status": "pending"
+  },
+  {
+    "ayah1": "27:19",
+    "ayah2": "46:15",
+    "category": "lafzi",
+    "note": "Both contain the supplication: 'Lord, inspire me to thank Your favor upon me and my parents and to do righteous deeds.' 27:19 (Sulayman) ends asking to be admitted among the righteous; 46:15 (a believer at 40) adds asking for righteous offspring.",
+    "status": "curated"
   },
   {
     "ayah1": "27:23",
@@ -8020,6 +8132,13 @@
     "category": "",
     "note": "",
     "status": "pending"
+  },
+  {
+    "ayah1": "27:81",
+    "ayah2": "30:53",
+    "category": "lafzi",
+    "note": "Nearly identical: the Prophet cannot guide the blind from misguidance; only those who believe in Allah's signs will hear. Minor orthographic variant: بِهَادِي (27:81) vs بِهَادِ (30:53).",
+    "status": "curated"
   },
   {
     "ayah1": "27:85",
@@ -8904,6 +9023,13 @@
     "status": "pending"
   },
   {
+    "ayah1": "34:2",
+    "ayah2": "57:4",
+    "category": "lafzi",
+    "note": "Both describe Allah's knowledge of what enters and exits the earth and heavens. 34:2 closes with 'the Merciful, the Forgiving'; 57:4 closes with 'He is with you wherever you are.'",
+    "status": "curated"
+  },
+  {
     "ayah1": "34:4",
     "ayah2": "34:37",
     "category": "",
@@ -9056,6 +9182,13 @@
     "category": "",
     "note": "",
     "status": "pending"
+  },
+  {
+    "ayah1": "35:40",
+    "ayah2": "46:4",
+    "category": "lafzi",
+    "note": "Both challenge polytheists: show what their deities created on earth or their share in the heavens. 35:40 names their 'partners' explicitly; 46:4 ends with a demand for a prior scripture or trace of knowledge.",
+    "status": "curated"
   },
   {
     "ayah1": "35:43",
@@ -9504,6 +9637,13 @@
     "category": "",
     "note": "",
     "status": "pending"
+  },
+  {
+    "ayah1": "41:25",
+    "ayah2": "46:18",
+    "category": "lafzi",
+    "note": "Both affirm the divine word fell upon certain people as it did on earlier nations of jinn and humans, and that they are the losers. 41:25 adds context about companions who beautified their deeds.",
+    "status": "curated"
   },
   {
     "ayah1": "41:29",
