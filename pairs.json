@@ -1037,143 +1037,38 @@
   },
   {
     "ayah1": "2:2",
-    "ayah2": "8:2",
-    "category": "",
-    "note": "",
-    "status": "pending"
-  },
-  {
-    "ayah1": "2:2",
     "ayah2": "27:2",
-    "category": "",
-    "note": "",
-    "status": "pending"
+    "category": "word_swap",
+    "note": "Both describe the Quran as 'huda' — 2:2 ends 'hudal lil muttaqin' while 27:2 says 'hudal wa bushra lil mu'minin,' swapping 'muttaqin' for 'mu'minin' and adding 'wa bushra.'",
+    "status": "curated"
   },
   {
     "ayah1": "2:2",
     "ayah2": "31:3",
-    "category": "",
-    "note": "",
-    "status": "pending"
+    "category": "word_swap",
+    "note": "Both describe the Quran as 'huda' — 2:2 ends 'hudal lil muttaqin' while 31:3 says 'hudal wa rahmatan lil muhsinin,' replacing 'muttaqin' with 'muhsinin' and adding 'wa rahmatan.'",
+    "status": "curated"
   },
   {
     "ayah1": "2:4",
     "ayah2": "31:4",
-    "category": "",
-    "note": "",
-    "status": "pending"
-  },
-  {
-    "ayah1": "2:5",
-    "ayah2": "36:9",
-    "category": "",
-    "note": "",
-    "status": "pending"
-  },
-  {
-    "ayah1": "2:15",
-    "ayah2": "2:174",
-    "category": "",
-    "note": "",
-    "status": "pending"
-  },
-  {
-    "ayah1": "2:21",
-    "ayah2": "14:31",
-    "category": "",
-    "note": "",
-    "status": "pending"
+    "category": "addition_omission",
+    "note": "Both end with certainty in the Hereafter — 2:4 ends 'wa bil akhirati hum yuqinun' while 31:4 ends 'wa hum bil akhirati hum yuqinun,' inserting an extra 'hum' before the phrase.",
+    "status": "curated"
   },
   {
     "ayah1": "2:23",
     "ayah2": "2:278",
-    "category": "",
-    "note": "",
-    "status": "pending"
-  },
-  {
-    "ayah1": "2:26",
-    "ayah2": "13:24",
-    "category": "",
-    "note": "",
-    "status": "pending"
-  },
-  {
-    "ayah1": "2:33",
-    "ayah2": "7:10",
-    "category": "",
-    "note": "",
-    "status": "pending"
-  },
-  {
-    "ayah1": "2:33",
-    "ayah2": "15:30",
-    "category": "",
-    "note": "",
-    "status": "pending"
-  },
-  {
-    "ayah1": "2:33",
-    "ayah2": "17:60",
-    "category": "",
-    "note": "",
-    "status": "pending"
-  },
-  {
-    "ayah1": "2:33",
-    "ayah2": "18:49",
-    "category": "",
-    "note": "",
-    "status": "pending"
-  },
-  {
-    "ayah1": "2:33",
-    "ayah2": "20:115",
-    "category": "",
-    "note": "",
-    "status": "pending"
-  },
-  {
-    "ayah1": "2:33",
-    "ayah2": "38:73",
-    "category": "",
-    "note": "",
-    "status": "pending"
-  },
-  {
-    "ayah1": "2:34",
-    "ayah2": "7:18",
-    "category": "",
-    "note": "",
-    "status": "pending"
+    "category": "structural",
+    "note": "Both end with an 'in kuntum X' conditional — 2:23 challenges doubters with 'in kuntum sadiqin' (if you are truthful) while 2:278 addresses believers with 'in kuntum mu'minin' (if you truly believe), same challenge structure with a swapped qualifier.",
+    "status": "curated"
   },
   {
     "ayah1": "2:37",
     "ayah2": "20:122",
-    "category": "",
-    "note": "",
-    "status": "pending"
-  },
-  {
-    "ayah1": "2:48",
-    "ayah2": "7:140",
-    "category": "",
-    "note": "",
-    "status": "pending"
-  },
-  {
-    "ayah1": "2:48",
-    "ayah2": "14:5",
-    "category": "",
-    "note": "",
-    "status": "pending"
-  },
-  {
-    "ayah1": "2:53",
-    "ayah2": "5:19",
-    "category": "",
-    "note": "",
-    "status": "pending"
+    "category": "word_swap",
+    "note": "Both describe Allah accepting Adam's repentance — 2:37 says 'fa taba 'alayhi innahu huwa al-tawwab al-rahim' while 20:122 says 'fa taba 'alayhi wa hada,' both share 'taba 'alayhi' but end differently: forgiveness and mercy in 2:37, guidance in 20:122.",
+    "status": "curated"
   },
   {
     "ayah1": "2:53",
