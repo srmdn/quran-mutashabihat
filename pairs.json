@@ -49,6 +49,13 @@
     "status": "dropped"
   },
   {
+    "ayah1": "2:22",
+    "ayah2": "14:32",
+    "category": "lafzi",
+    "note": "Both enumerate Allah's blessings including 'He sent down from the sky water and brought forth thereby fruits as provision for you'; 2:22 is in the opening argument for monotheism, 14:32 is in Ibrahim's prayer listing divine favors.",
+    "status": "curated"
+  },
+  {
     "ayah1": "2:23",
     "ayah2": "2:278",
     "category": "structural",
@@ -287,6 +294,13 @@
     "status": "curated"
   },
   {
+    "ayah1": "2:63",
+    "ayah2": "2:93",
+    "category": "lafzi",
+    "note": "Verbatim within Al-Baqarah: 'when We took your covenant and raised the mountain above you: hold firmly to what We have given you'; 2:63 recounts the Sinai covenant, 2:93 repeats the same event as part of a longer indictment of Bani Israel's broken promises.",
+    "status": "curated"
+  },
+  {
     "ayah1": "2:76",
     "ayah2": "11:4",
     "category": "",
@@ -425,6 +439,13 @@
     "category": "",
     "note": "",
     "status": "pending"
+  },
+  {
+    "ayah1": "2:120",
+    "ayah2": "13:37",
+    "category": "lafzi",
+    "note": "Both warn that following disbelievers after knowledge has come means 'you would have from Allah neither protector nor helper'; 2:120 is addressed to the Prophet regarding the Jews and Christians, 13:37 is about following desires against the revelation.",
+    "status": "curated"
   },
   {
     "ayah1": "2:124",
@@ -1596,6 +1617,13 @@
     "status": "curated"
   },
   {
+    "ayah1": "4:13",
+    "ayah2": "48:17",
+    "category": "lafzi",
+    "note": "Both contain 'whoever obeys Allah and His Messenger, He will admit him to gardens beneath which rivers flow'; 4:13 follows the limits of inheritance, 48:17 follows the exemption of the disabled from military duty.",
+    "status": "curated"
+  },
+  {
     "ayah1": "4:36",
     "ayah2": "17:23",
     "category": "order_change",
@@ -2063,6 +2091,13 @@
     "category": "",
     "note": "",
     "status": "pending"
+  },
+  {
+    "ayah1": "5:64",
+    "ayah2": "5:68",
+    "category": "lafzi",
+    "note": "Verbatim within Al-Ma'idah: 'it will surely increase many of them in transgression and disbelief, what has been revealed to you from your Lord'; 5:64 follows the Jews' claim that Allah's hand is fettered, 5:68 follows the assertion that the People of the Book have no foundation without their scriptures.",
+    "status": "curated"
   },
   {
     "ayah1": "5:68",
@@ -2567,6 +2602,13 @@
     "category": "",
     "note": "",
     "status": "pending"
+  },
+  {
+    "ayah1": "6:56",
+    "ayah2": "40:66",
+    "category": "lafzi",
+    "note": "Both are the Prophet's declaration 'I am forbidden to worship those you invoke besides Allah'; 6:56 is a direct rejection of the Meccan deities, 40:66 adds 'since the clear proofs have come to me from my Lord.'",
+    "status": "curated"
   },
   {
     "ayah1": "6:69",
@@ -3113,6 +3155,13 @@
     "category": "",
     "note": "",
     "status": "pending"
+  },
+  {
+    "ayah1": "7:12",
+    "ayah2": "38:76",
+    "category": "lafzi",
+    "note": "Verbatim quote of Iblees's arrogance: 'He said: I am better than him; You created me from fire and created him from clay'; 7:12 is in the Al-A'raf account of the prostration, 38:76 reprises the same dialogue in Sad.",
+    "status": "curated"
   },
   {
     "ayah1": "7:13",
@@ -5180,6 +5229,13 @@
     "status": "pending"
   },
   {
+    "ayah1": "10:93",
+    "ayah2": "45:17",
+    "category": "lafzi",
+    "note": "Verbatim: 'your Lord will judge between them on the Day of Resurrection concerning that wherein they used to differ'; 10:93 follows the settlement of Bani Israel in Egypt, 45:17 follows a description of the Israelites' divisions after receiving clear proofs.",
+    "status": "curated"
+  },
+  {
     "ayah1": "10:103",
     "ayah2": "27:90",
     "category": "",
@@ -5383,6 +5439,13 @@
     "status": "pending"
   },
   {
+    "ayah1": "11:28",
+    "ayah2": "11:63",
+    "category": "lafzi",
+    "note": "Both use the same prophetic rhetorical opening within Hud: 'do you see, if I am on clear evidence from my Lord and He has given me...'; 11:28 is Nuh addressing his people, 11:63 is Salih addressing his -- the shared formula marks a recurring prophetic speech pattern.",
+    "status": "curated"
+  },
+  {
     "ayah1": "11:35",
     "ayah2": "12:68",
     "category": "",
@@ -5542,6 +5605,13 @@
     "category": "",
     "note": "",
     "status": "pending"
+  },
+  {
+    "ayah1": "11:107",
+    "ayah2": "11:108",
+    "category": "lafzi",
+    "note": "Adjacent verses within Hud sharing the formula 'abiding therein as long as the heavens and earth endure, except what your Lord wills'; 11:107 applies it to the people of the Fire, 11:108 applies the same phrase to the people of Paradise.",
+    "status": "curated"
   },
   {
     "ayah1": "11:109",
@@ -5780,6 +5850,13 @@
     "category": "",
     "note": "",
     "status": "pending"
+  },
+  {
+    "ayah1": "12:109",
+    "ayah2": "35:44",
+    "category": "lafzi",
+    "note": "Part of the travel-and-observe formula cluster (12:109, 30:9, 35:44, 40:82, 47:10 all share this phrase); this pair is 12:109 and 35:44.",
+    "status": "curated"
   },
   {
     "ayah1": "12:109",
@@ -6398,6 +6475,13 @@
     "status": "pending"
   },
   {
+    "ayah1": "16:61",
+    "ayah2": "35:45",
+    "category": "lafzi",
+    "note": "Verbatim: 'if Allah were to punish people for what they have earned He would not leave upon the earth any creature, but He defers them to an appointed term'; 16:61 is among Allah's attributes of forbearance, 35:45 makes the same point closing Fatir.",
+    "status": "curated"
+  },
+  {
     "ayah1": "16:64",
     "ayah2": "29:62",
     "category": "",
@@ -6571,6 +6655,13 @@
     "category": "",
     "note": "",
     "status": "pending"
+  },
+  {
+    "ayah1": "16:125",
+    "ayah2": "53:30",
+    "category": "lafzi",
+    "note": "Completes the three-way set (see 16:125/68:7 batch 5 and 53:30/68:7 this batch): 'your Lord knows best who has gone astray from His way and He knows best the rightly guided'; 16:125 is in the call-to-wisdom context, 53:30 closes a description of those who turn away.",
+    "status": "curated"
   },
   {
     "ayah1": "16:125",
@@ -8652,6 +8743,13 @@
     "status": "pending"
   },
   {
+    "ayah1": "27:87",
+    "ayah2": "39:68",
+    "category": "lafzi",
+    "note": "Both describe the Trumpet blast causing all in the heavens and earth to swoon, 'except whom Allah wills'; 27:87 is the first mention, 39:68 elaborates with the second blow that causes the resurrection.",
+    "status": "curated"
+  },
+  {
     "ayah1": "27:88",
     "ayah2": "28:83",
     "category": "",
@@ -9093,6 +9191,13 @@
     "status": "curated"
   },
   {
+    "ayah1": "30:9",
+    "ayah2": "47:10",
+    "category": "lafzi",
+    "note": "Part of the travel-and-observe formula cluster (12:109, 30:9, 35:44, 40:82, 47:10 all share this phrase); this pair is 30:9 and 47:10.",
+    "status": "curated"
+  },
+  {
     "ayah1": "30:11",
     "ayah2": "30:13",
     "category": "",
@@ -9196,6 +9301,13 @@
     "category": "",
     "note": "",
     "status": "pending"
+  },
+  {
+    "ayah1": "30:43",
+    "ayah2": "42:47",
+    "category": "lafzi",
+    "note": "Both warn: 'before there comes a Day from Allah of which there is no repelling'; 30:43 calls to establish yourself toward the upright religion, 42:47 calls to respond to your Lord before an irrevocable day.",
+    "status": "curated"
   },
   {
     "ayah1": "30:46",
@@ -9735,6 +9847,20 @@
     "category": "",
     "note": "",
     "status": "pending"
+  },
+  {
+    "ayah1": "35:44",
+    "ayah2": "40:82",
+    "category": "lafzi",
+    "note": "Part of the travel-and-observe formula cluster (12:109, 30:9, 35:44, 40:82, 47:10 all share this phrase); this pair is 35:44 and 40:82.",
+    "status": "curated"
+  },
+  {
+    "ayah1": "35:44",
+    "ayah2": "47:10",
+    "category": "lafzi",
+    "note": "Part of the travel-and-observe formula cluster (12:109, 30:9, 35:44, 40:82, 47:10 all share this phrase); this pair is 35:44 and 47:10.",
+    "status": "curated"
   },
   {
     "ayah1": "36:28",
@@ -10500,6 +10626,13 @@
     "status": "pending"
   },
   {
+    "ayah1": "53:30",
+    "ayah2": "68:7",
+    "category": "lafzi",
+    "note": "Part of a three-way set (see 16:125/68:7 batch 5 and 16:125/53:30 this batch): 'your Lord knows best who has gone astray from His way and He knows best the rightly guided'; 53:30 closes a passage on those who avoid major sins, 68:7 follows a command not to obey disbelievers.",
+    "status": "curated"
+  },
+  {
     "ayah1": "54:6",
     "ayah2": "70:42",
     "category": "",
@@ -10848,6 +10981,13 @@
     "category": "",
     "note": "",
     "status": "pending"
+  },
+  {
+    "ayah1": "57:21",
+    "ayah2": "62:4",
+    "category": "lafzi",
+    "note": "Verbatim closing formula: 'that is the bounty of Allah which He gives to whom He wills; Allah is the possessor of great bounty'; 57:21 closes the call to race toward Allah's forgiveness, 62:4 follows the description of the Prophet sent among the unlettered.",
+    "status": "curated"
   },
   {
     "ayah1": "58:1",
