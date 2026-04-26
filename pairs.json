@@ -147,6 +147,13 @@
     "status": "curated"
   },
   {
+    "ayah1": "2:36",
+    "ayah2": "7:24",
+    "category": "lafzi",
+    "note": "Both contain the expulsion command after Adam's disobedience: 'descend, some of you enemies to others; in the earth is a place of settlement and provision for a time'; 2:36 is the brief account, 7:24 is within the expanded narrative.",
+    "status": "curated"
+  },
+  {
     "ayah1": "2:37",
     "ayah2": "20:122",
     "category": "word_swap",
@@ -481,6 +488,13 @@
     "category": "",
     "note": "",
     "status": "pending"
+  },
+  {
+    "ayah1": "2:144",
+    "ayah2": "2:150",
+    "category": "lafzi",
+    "note": "The qibla command repeated twice within Al-Baqarah: 'turn your face toward Masjid al-Haram, and wherever you are turn your faces toward it'; 2:144 addresses the Prophet directly, 2:150 restates it as a universal rule.",
+    "status": "curated"
   },
   {
     "ayah1": "2:144",
@@ -852,6 +866,13 @@
     "category": "",
     "note": "",
     "status": "pending"
+  },
+  {
+    "ayah1": "2:243",
+    "ayah2": "40:61",
+    "category": "lafzi",
+    "note": "Verbatim: 'indeed Allah is full of bounty to the people but most people do not give thanks'; 2:243 follows the story of those who fled their homes fearing death, 40:61 follows a list of Allah's cosmic favors.",
+    "status": "curated"
   },
   {
     "ayah1": "2:244",
@@ -2135,6 +2156,13 @@
     "status": "pending"
   },
   {
+    "ayah1": "6:4",
+    "ayah2": "36:46",
+    "category": "lafzi",
+    "note": "Verbatim: 'there comes not to them a sign from the signs of their Lord except that they turn away from it'; 6:4 is in Al-An'am describing the Meccan disbelievers, 36:46 makes the same statement in Yasin.",
+    "status": "curated"
+  },
+  {
     "ayah1": "6:5",
     "ayah2": "17:16",
     "category": "",
@@ -2819,6 +2847,13 @@
     "category": "",
     "note": "",
     "status": "pending"
+  },
+  {
+    "ayah1": "6:143",
+    "ayah2": "6:144",
+    "category": "lafzi",
+    "note": "Adjacent verses in Al-An'am applying the identical rhetorical challenge -- 'is it the two males He has forbidden or the two females or what the wombs of the two females contain?' -- first to sheep and goats (6:143) then to camels and cattle (6:144).",
+    "status": "curated"
   },
   {
     "ayah1": "6:143",
@@ -3575,6 +3610,13 @@
     "category": "",
     "note": "",
     "status": "pending"
+  },
+  {
+    "ayah1": "7:78",
+    "ayah2": "7:91",
+    "category": "lafzi",
+    "note": "The earthquake-destruction formula: 'the earthquake seized them and they became in their dwelling lying prone (jathameen)'; 7:78 is the fate of Thamud after rejecting Salih, 7:91 is the identical fate of Madyan after rejecting Shu'ayb.",
+    "status": "curated"
   },
   {
     "ayah1": "7:78",
@@ -5530,6 +5572,13 @@
     "status": "curated"
   },
   {
+    "ayah1": "12:43",
+    "ayah2": "12:46",
+    "category": "lafzi",
+    "note": "The king's dream (seven fat cows eaten by seven lean, seven green ears and others dry) stated verbatim in 12:43 and then repeated word-for-word in 12:46 when the minister asks Yusuf for the interpretation.",
+    "status": "curated"
+  },
+  {
     "ayah1": "12:58",
     "ayah2": "12:64",
     "category": "",
@@ -5626,6 +5675,20 @@
     "category": "",
     "note": "",
     "status": "pending"
+  },
+  {
+    "ayah1": "12:109",
+    "ayah2": "40:82",
+    "category": "lafzi",
+    "note": "Both contain 'have they not traveled the earth and observed how was the end of those before them?'; see also 30:9/40:82 (batch 5) and 12:109/47:10 for the wider cluster of this formula.",
+    "status": "curated"
+  },
+  {
+    "ayah1": "12:109",
+    "ayah2": "47:10",
+    "category": "lafzi",
+    "note": "Both contain 'have they not traveled the earth and observed how was the end of those before them?'; see also 12:109/40:82 (this batch) for the wider cluster.",
+    "status": "curated"
   },
   {
     "ayah1": "12:111",
@@ -8092,6 +8155,20 @@
     "status": "pending"
   },
   {
+    "ayah1": "26:109",
+    "ayah2": "26:164",
+    "category": "lafzi",
+    "note": "Part of the Al-Shu'ara prophetic refrain: 'I ask you for no payment; my reward is only from the Lord of the worlds' -- appears five times in the surah (26:109 Nuh, 26:127 Hud, 26:145 Salih, 26:164 Lut, 26:180 Shu'ayb); this pair is Nuh and Lut.",
+    "status": "curated"
+  },
+  {
+    "ayah1": "26:109",
+    "ayah2": "26:180",
+    "category": "lafzi",
+    "note": "Part of the Al-Shu'ara prophetic refrain: 'I ask you for no payment; my reward is only from the Lord of the worlds' -- appears five times in the surah (26:109 Nuh, 26:127 Hud, 26:145 Salih, 26:164 Lut, 26:180 Shu'ayb); this pair is Nuh and Shu'ayb.",
+    "status": "curated"
+  },
+  {
     "ayah1": "26:115",
     "ayah2": "26:166",
     "category": "",
@@ -8114,6 +8191,20 @@
   },
   {
     "ayah1": "26:127",
+    "ayah2": "26:145",
+    "category": "lafzi",
+    "note": "Part of the Al-Shu'ara prophetic refrain: 'I ask you for no payment; my reward is only from the Lord of the worlds' -- appears five times in the surah (26:109 Nuh, 26:127 Hud, 26:145 Salih, 26:164 Lut, 26:180 Shu'ayb); this pair is Hud and Salih.",
+    "status": "curated"
+  },
+  {
+    "ayah1": "26:127",
+    "ayah2": "26:164",
+    "category": "lafzi",
+    "note": "Part of the Al-Shu'ara prophetic refrain: 'I ask you for no payment; my reward is only from the Lord of the worlds' -- appears five times in the surah (26:109 Nuh, 26:127 Hud, 26:145 Salih, 26:164 Lut, 26:180 Shu'ayb); this pair is Hud and Lut.",
+    "status": "curated"
+  },
+  {
+    "ayah1": "26:127",
     "ayah2": "26:180",
     "category": "lafzi",
     "note": "Both are instances of the prophetic refrain repeated across five stories in Surah Al-Shu'ara: 'I ask you for no payment; my reward is only from the Lord of the worlds'; 26:127 is Hud's refrain, 26:180 is Shu'ayb's.",
@@ -8127,6 +8218,20 @@
     "status": "pending"
   },
   {
+    "ayah1": "26:145",
+    "ayah2": "26:164",
+    "category": "lafzi",
+    "note": "Part of the Al-Shu'ara prophetic refrain: 'I ask you for no payment; my reward is only from the Lord of the worlds' -- appears five times in the surah (26:109 Nuh, 26:127 Hud, 26:145 Salih, 26:164 Lut, 26:180 Shu'ayb); this pair is Salih and Lut.",
+    "status": "curated"
+  },
+  {
+    "ayah1": "26:145",
+    "ayah2": "26:180",
+    "category": "lafzi",
+    "note": "Part of the Al-Shu'ara prophetic refrain: 'I ask you for no payment; my reward is only from the Lord of the worlds' -- appears five times in the surah (26:109 Nuh, 26:127 Hud, 26:145 Salih, 26:164 Lut, 26:180 Shu'ayb); this pair is Salih and Shu'ayb.",
+    "status": "curated"
+  },
+  {
     "ayah1": "26:151",
     "ayah2": "27:47",
     "category": "",
@@ -8134,11 +8239,25 @@
     "status": "pending"
   },
   {
+    "ayah1": "26:164",
+    "ayah2": "26:180",
+    "category": "lafzi",
+    "note": "Part of the Al-Shu'ara prophetic refrain: 'I ask you for no payment; my reward is only from the Lord of the worlds' -- appears five times in the surah (26:109 Nuh, 26:127 Hud, 26:145 Salih, 26:164 Lut, 26:180 Shu'ayb); this pair is Lut and Shu'ayb.",
+    "status": "curated"
+  },
+  {
     "ayah1": "26:172",
     "ayah2": "27:57",
     "category": "",
     "note": "",
     "status": "pending"
+  },
+  {
+    "ayah1": "26:173",
+    "ayah2": "27:58",
+    "category": "lafzi",
+    "note": "Verbatim: 'and We rained upon them a rain; evil was the rain of those who were warned'; both describe the punishment rain on the people of Lut -- 26:173 in the Al-Shu'ara account, 27:58 in the Al-Naml account.",
+    "status": "curated"
   },
   {
     "ayah1": "26:201",
@@ -8181,6 +8300,13 @@
     "category": "",
     "note": "",
     "status": "pending"
+  },
+  {
+    "ayah1": "27:10",
+    "ayah2": "28:31",
+    "category": "lafzi",
+    "note": "Both describe Moses seeing his staff writhe like a jinn (jann) and fleeing without looking back; 27:10 is the first encounter at the burning bush, 28:31 reprises the same scene when Moses is formally commissioned.",
+    "status": "curated"
   },
   {
     "ayah1": "27:11",
@@ -8818,6 +8944,13 @@
     "category": "",
     "note": "",
     "status": "pending"
+  },
+  {
+    "ayah1": "30:9",
+    "ayah2": "35:44",
+    "category": "lafzi",
+    "note": "Both contain 'have they not traveled the earth and observed how was the end of those before them?'; see also 30:9/40:82 (batch 5) and 12:109/40:82 for the wider cluster.",
+    "status": "curated"
   },
   {
     "ayah1": "30:9",
@@ -10078,6 +10211,13 @@
     "category": "",
     "note": "",
     "status": "pending"
+  },
+  {
+    "ayah1": "48:28",
+    "ayah2": "61:9",
+    "category": "lafzi",
+    "note": "Third pair in the three-way set (see 9:33/48:28 and 9:33/61:9): all three share the opening about the Prophet sent with guidance to prevail over all religion; 9:33 and 61:9 are verbatim identical, while 48:28 ends 'sufficient is Allah as witness' instead of 'even if the polytheists dislike it.'",
+    "status": "curated"
   },
   {
     "ayah1": "50:16",
