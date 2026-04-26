@@ -274,6 +274,13 @@
   },
   {
     "ayah1": "2:62",
+    "ayah2": "2:274",
+    "category": "lafzi",
+    "note": "Verbatim within Al-Baqarah: 'for them is their reward with their Lord, and no fear will there be upon them, nor will they grieve'; 2:62 is the reward for sincere believers of any community, 2:274 is the reward for those who spend in charity.",
+    "status": "curated"
+  },
+  {
+    "ayah1": "2:62",
     "ayah2": "5:69",
     "category": "order_change",
     "note": "Both list the four groups — believers, Jews, Christians, and Sabians — in an identical promise formula but 2:62 uses 'wa al-sabi'ina' while 5:69 shifts to 'wa al-sabi'una', a grammatical case change alongside the same sequence.",
@@ -621,6 +628,13 @@
     "category": "",
     "note": "",
     "status": "pending"
+  },
+  {
+    "ayah1": "2:170",
+    "ayah2": "31:21",
+    "category": "lafzi",
+    "note": "Verbatim: 'when it is said to them, follow what Allah has revealed, they say: rather we will follow what we found our fathers doing'; 2:170 addresses the Meccan disbelievers, 31:21 occurs in the Luqman wisdom context with identical wording.",
+    "status": "curated"
   },
   {
     "ayah1": "2:172",
@@ -1127,6 +1141,13 @@
     "status": "pending"
   },
   {
+    "ayah1": "3:41",
+    "ayah2": "19:10",
+    "category": "lafzi",
+    "note": "Both record Zakariyya's request for a sign and the identical divine response: 'your sign is that you shall not speak to the people for three days'; 3:41 adds 'except by gesture,' 19:10 specifies 'three nights while sound.'",
+    "status": "curated"
+  },
+  {
     "ayah1": "3:43",
     "ayah2": "11:48",
     "category": "",
@@ -1139,6 +1160,13 @@
     "category": "",
     "note": "",
     "status": "pending"
+  },
+  {
+    "ayah1": "3:44",
+    "ayah2": "12:102",
+    "category": "lafzi",
+    "note": "Both use the 'news of the unseen' formula: 'that is from the reports of the unseen which We reveal to you; you were not present with them when...'; 3:44 follows the Maryam/Zakariyya story, 12:102 follows the Yusuf story.",
+    "status": "curated"
   },
   {
     "ayah1": "3:47",
@@ -1659,6 +1687,13 @@
     "status": "curated"
   },
   {
+    "ayah1": "4:61",
+    "ayah2": "5:104",
+    "category": "lafzi",
+    "note": "Both share the call: 'when it is said to them, come to what Allah has revealed and to the Messenger'; 4:61 is the hypocrites who turn away when called to Allah's judgment, 5:104 is the pagans who cling to their forefathers' ways.",
+    "status": "curated"
+  },
+  {
     "ayah1": "4:63",
     "ayah2": "14:3",
     "category": "",
@@ -1895,6 +1930,13 @@
     "category": "",
     "note": "",
     "status": "pending"
+  },
+  {
+    "ayah1": "5:17",
+    "ayah2": "5:72",
+    "category": "lafzi",
+    "note": "Near-identical refutation within the same surah: 'those who say Allah is the Messiah son of Mary have certainly disbelieved'; 5:17 is the broader refutation, 5:72 is specifically the response to the Christian position on Jesus.",
+    "status": "curated"
   },
   {
     "ayah1": "5:19",
@@ -2877,6 +2919,13 @@
     "status": "pending"
   },
   {
+    "ayah1": "6:145",
+    "ayah2": "16:115",
+    "category": "lafzi",
+    "note": "Both share the duress exception clause for the same list of prohibitions; see also 2:173/16:115 (batch 4) -- 6:145 frames the list as a response to 'what has Allah forbidden you,' 16:115 is the direct restatement.",
+    "status": "curated"
+  },
+  {
     "ayah1": "6:146",
     "ayah2": "12:109",
     "category": "",
@@ -3290,6 +3339,13 @@
     "status": "curated"
   },
   {
+    "ayah1": "7:54",
+    "ayah2": "57:4",
+    "category": "lafzi",
+    "note": "Both open with 'who created the heavens and earth in six days then established Himself above the Throne'; see also 10:3/57:4 and the 25:59/32:4 pair (batch 4) for the wider cluster of this creation formula.",
+    "status": "curated"
+  },
+  {
     "ayah1": "7:56",
     "ayah2": "25:47",
     "category": "",
@@ -3626,6 +3682,13 @@
     "status": "pending"
   },
   {
+    "ayah1": "7:78",
+    "ayah2": "29:37",
+    "category": "lafzi",
+    "note": "The earthquake-destruction formula: 'the earthquake seized them and they became in their dwelling lying prone'; 7:78 is Thamud/Salih, 29:37 is Madyan/Shu'ayb; see also 7:91/29:37 and 7:78/7:91 (batch 6).",
+    "status": "curated"
+  },
+  {
     "ayah1": "7:79",
     "ayah2": "27:53",
     "category": "",
@@ -3820,6 +3883,13 @@
     "category": "",
     "note": "",
     "status": "pending"
+  },
+  {
+    "ayah1": "7:91",
+    "ayah2": "29:37",
+    "category": "lafzi",
+    "note": "Both describe Madyan's destruction: 7:91 uses rajfa for Shu'ayb's people in Al-A'raf, 29:37 also uses rajfa for the same event in Al-Ankabut; completes the three-way set with 7:78/7:91 (batch 6) and 7:78/29:37.",
+    "status": "curated"
   },
   {
     "ayah1": "7:100",
@@ -4571,6 +4641,13 @@
     "status": "pending"
   },
   {
+    "ayah1": "10:3",
+    "ayah2": "57:4",
+    "category": "lafzi",
+    "note": "Both open with 'who created the heavens and earth in six days then established Himself above the Throne'; see also 7:54/57:4 (this batch) and 25:59/32:4 (batch 4) for the wider creation-formula cluster.",
+    "status": "curated"
+  },
+  {
     "ayah1": "10:11",
     "ayah2": "30:32",
     "category": "",
@@ -4709,6 +4786,13 @@
     "category": "",
     "note": "",
     "status": "pending"
+  },
+  {
+    "ayah1": "10:24",
+    "ayah2": "18:45",
+    "category": "lafzi",
+    "note": "Both use the same parable: 'the example of worldly life is like rain We send down from the sky; the vegetation of the earth mingles with it then it withers'; 10:24 develops the metaphor fully, 18:45 gives a compressed version.",
+    "status": "curated"
   },
   {
     "ayah1": "10:27",
@@ -4926,6 +5010,13 @@
     "category": "",
     "note": "",
     "status": "pending"
+  },
+  {
+    "ayah1": "10:61",
+    "ayah2": "34:3",
+    "category": "lafzi",
+    "note": "Both contain 'not the weight of a speck escapes your Lord in the earth or in the sky, nor anything smaller or larger, except that it is in a clear register'; 10:61 is addressed to the Prophet, 34:3 refutes the disbelievers' denial of the Hour.",
+    "status": "curated"
   },
   {
     "ayah1": "10:63",
@@ -5313,6 +5404,13 @@
     "status": "pending"
   },
   {
+    "ayah1": "11:40",
+    "ayah2": "23:27",
+    "category": "lafzi",
+    "note": "Both contain the ark-loading command: 'take into it from every kind two mates and your family, except those against whom the word has already gone'; 11:40 is the direct command to Nuh, 23:27 is the retelling of the same command.",
+    "status": "curated"
+  },
+  {
     "ayah1": "11:48",
     "ayah2": "12:101",
     "category": "",
@@ -5549,6 +5647,13 @@
     "category": "",
     "note": "",
     "status": "pending"
+  },
+  {
+    "ayah1": "12:22",
+    "ayah2": "28:14",
+    "category": "lafzi",
+    "note": "Identical formula applied to two prophets reaching maturity: 'We gave him judgment and knowledge; and thus do We reward the doers of good'; 12:22 is Yusuf, 28:14 is Musa.",
+    "status": "curated"
   },
   {
     "ayah1": "12:39",
@@ -5941,6 +6046,13 @@
     "category": "",
     "note": "",
     "status": "pending"
+  },
+  {
+    "ayah1": "14:21",
+    "ayah2": "40:47",
+    "category": "lafzi",
+    "note": "Both quote the weak followers addressing the arrogant in the Hereafter: 'we were your followers, can you now spare us any of Allah's punishment?'; 14:21 is in Ibrahim's prayer, 40:47 is a direct scene in Hell.",
+    "status": "curated"
   },
   {
     "ayah1": "14:21",
@@ -6900,6 +7012,13 @@
     "category": "",
     "note": "",
     "status": "pending"
+  },
+  {
+    "ayah1": "18:110",
+    "ayah2": "41:6",
+    "category": "lafzi",
+    "note": "Verbatim opening: 'say: I am only a man like you, to whom it has been revealed that your God is one God'; 18:110 closes Al-Kahf, 41:6 opens a passage in Fussilat -- both assert the Prophet's humanity alongside strict monotheism.",
+    "status": "curated"
   },
   {
     "ayah1": "19:3",
@@ -8153,6 +8272,20 @@
     "category": "",
     "note": "",
     "status": "pending"
+  },
+  {
+    "ayah1": "26:109",
+    "ayah2": "26:127",
+    "category": "lafzi",
+    "note": "Part of the Al-Shu'ara prophetic refrain (26:109 Nuh, 26:127 Hud, 26:145 Salih, 26:164 Lut, 26:180 Shu'ayb); this pair is Nuh and Hud.",
+    "status": "curated"
+  },
+  {
+    "ayah1": "26:109",
+    "ayah2": "26:145",
+    "category": "lafzi",
+    "note": "Part of the Al-Shu'ara prophetic refrain (26:109 Nuh, 26:127 Hud, 26:145 Salih, 26:164 Lut, 26:180 Shu'ayb); this pair is Nuh and Salih.",
+    "status": "curated"
   },
   {
     "ayah1": "26:109",
@@ -10001,6 +10134,13 @@
     "category": "",
     "note": "",
     "status": "pending"
+  },
+  {
+    "ayah1": "40:82",
+    "ayah2": "47:10",
+    "category": "lafzi",
+    "note": "Both contain 'have they not traveled the earth and observed how was the end of those before them?'; completes the cluster with 12:109/40:82, 12:109/47:10, 30:9/40:82, and 30:9/35:44.",
+    "status": "curated"
   },
   {
     "ayah1": "40:84",
