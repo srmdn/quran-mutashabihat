@@ -952,6 +952,13 @@
     "status": "curated"
   },
   {
+    "ayah1": "2:262",
+    "ayah2": "2:277",
+    "category": "lafzi",
+    "note": "Verbatim within Al-Baqarah: 'for them is their reward with their Lord, and no fear will there be upon them, nor will they grieve'; 2:262 rewards charitable givers who do not follow charity with harm, 2:277 is the general reward for believers; see also 2:62/2:274 (batch 7).",
+    "status": "curated"
+  },
+  {
     "ayah1": "2:263",
     "ayah2": "4:37",
     "category": "",
@@ -1925,6 +1932,13 @@
     "status": "pending"
   },
   {
+    "ayah1": "5:3",
+    "ayah2": "16:115",
+    "category": "lafzi",
+    "note": "Both share the core prohibition list (dead animals, blood, swine, what is dedicated to other than Allah); see also 2:173/16:115 (batch 4) and 6:145/16:115 (batch 7) -- 5:3 is the most expansive version adding strangled, beaten, fallen animals, 16:115 is the standard shorter form.",
+    "status": "curated"
+  },
+  {
     "ayah1": "5:9",
     "ayah2": "5:85",
     "category": "",
@@ -2371,6 +2385,13 @@
     "category": "",
     "note": "",
     "status": "pending"
+  },
+  {
+    "ayah1": "6:17",
+    "ayah2": "10:107",
+    "category": "lafzi",
+    "note": "Verbatim: 'if Allah touches you with harm, there is no remover of it except Him, and if He wills good for you, there is no repeller of His bounty'; 6:17 is in the context of tawhid argument, 10:107 closes a passage on trust in Allah.",
+    "status": "curated"
   },
   {
     "ayah1": "6:20",
@@ -3263,6 +3284,13 @@
   },
   {
     "ayah1": "7:37",
+    "ayah2": "10:17",
+    "category": "lafzi",
+    "note": "Verbatim rhetorical question: 'who is more unjust than one who invents a lie about Allah or denies His signs?'; 7:37 condemns those who reject the messengers, 10:17 addresses the accusation that the Prophet fabricated the Quran.",
+    "status": "curated"
+  },
+  {
+    "ayah1": "7:37",
     "ayah2": "38:60",
     "category": "",
     "note": "",
@@ -3477,6 +3505,13 @@
     "category": "",
     "note": "",
     "status": "pending"
+  },
+  {
+    "ayah1": "7:63",
+    "ayah2": "7:69",
+    "category": "lafzi",
+    "note": "Adjacent prophet-stories within Al-A'raf sharing the same surprised-people formula: 'do you wonder that a reminder came to you from your Lord upon a man from among you to warn you?'; 7:63 is Nuh's response to his people, 7:69 is Hud's.",
+    "status": "curated"
   },
   {
     "ayah1": "7:63",
@@ -4543,6 +4578,13 @@
     "status": "pending"
   },
   {
+    "ayah1": "9:70",
+    "ayah2": "30:9",
+    "category": "lafzi",
+    "note": "Both share the nations-wronging-themselves formula: 'their messengers came to them with clear proofs, and Allah was not going to wrong them, but they were wronging themselves'; 9:70 is in a list of destroyed nations, 30:9 closes the travel-and-observe invitation.",
+    "status": "curated"
+  },
+  {
     "ayah1": "9:71",
     "ayah2": "10:63",
     "category": "",
@@ -4639,6 +4681,13 @@
     "category": "",
     "note": "",
     "status": "pending"
+  },
+  {
+    "ayah1": "9:94",
+    "ayah2": "62:8",
+    "category": "lafzi",
+    "note": "Verbatim: 'then you will be returned to the Knower of the unseen and the seen, and He will inform you of what you used to do'; 9:94 is addressed to the hypocrites who stayed behind from Tabuk, 62:8 responds to those who flee from death.",
+    "status": "curated"
   },
   {
     "ayah1": "9:111",
@@ -5853,6 +5902,13 @@
   },
   {
     "ayah1": "12:109",
+    "ayah2": "30:9",
+    "category": "lafzi",
+    "note": "Final pair completing the ten-way travel-and-observe cluster (12:109, 30:9, 35:44, 40:82, 47:10 -- all C(5,2)=10 combinations now curated): 'have they not traveled the earth and observed how was the end of those before them?'",
+    "status": "curated"
+  },
+  {
+    "ayah1": "12:109",
     "ayah2": "35:44",
     "category": "lafzi",
     "note": "Part of the travel-and-observe formula cluster (12:109, 30:9, 35:44, 40:82, 47:10 all share this phrase); this pair is 12:109 and 35:44.",
@@ -6937,6 +6993,13 @@
     "status": "pending"
   },
   {
+    "ayah1": "17:83",
+    "ayah2": "41:51",
+    "category": "lafzi",
+    "note": "Verbatim: 'when We bestow favor upon man, he turns away and withdraws to the side; and when evil touches him, he is in despair'; both observe human ingratitude and despair as a recurring flaw -- 17:83 in Al-Isra, 41:51 in Fussilat.",
+    "status": "curated"
+  },
+  {
     "ayah1": "17:93",
     "ayah2": "18:54",
     "category": "",
@@ -7838,6 +7901,13 @@
     "category": "",
     "note": "",
     "status": "pending"
+  },
+  {
+    "ayah1": "22:23",
+    "ayah2": "35:33",
+    "category": "lafzi",
+    "note": "Verbatim paradise adornment: 'they will be adorned therein with bracelets of gold and pearl, and their garments therein will be silk'; 22:23 is part of the reward for believers in Al-Hajj (see also 22:14/22:23), 35:33 is in the inheritance of paradise passage in Fatir.",
+    "status": "curated"
   },
   {
     "ayah1": "22:23",
