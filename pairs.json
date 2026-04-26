@@ -140,6 +140,13 @@
     "status": "curated"
   },
   {
+    "ayah1": "2:35",
+    "ayah2": "7:19",
+    "category": "lafzi",
+    "note": "Both contain the command to Adam and his wife in the garden: 'wherever you wish, but do not approach this tree lest you be among the wrongdoers'; 2:35 is the brief account, 7:19 comes in the expanded garden narrative.",
+    "status": "curated"
+  },
+  {
     "ayah1": "2:37",
     "ayah2": "20:122",
     "category": "word_swap",
@@ -1230,6 +1237,13 @@
     "category": "",
     "note": "",
     "status": "pending"
+  },
+  {
+    "ayah1": "3:89",
+    "ayah2": "24:5",
+    "category": "lafzi",
+    "note": "Verbatim exception clause: 'except those who repent afterward and reform; indeed Allah is Forgiving, Merciful'; 3:89 follows the condemnation of apostates, 24:5 follows the prescribed punishment for false accusers of chastity.",
+    "status": "curated"
   },
   {
     "ayah1": "3:97",
@@ -2352,6 +2366,13 @@
     "status": "pending"
   },
   {
+    "ayah1": "6:30",
+    "ayah2": "46:34",
+    "category": "lafzi",
+    "note": "Both quote a courtroom-like scene: 'is this not the truth? They say: yes, by our Lord. He says: then taste the punishment for what you used to deny'; 6:30 is at resurrection, 46:34 is directed at those who rejected the Quran.",
+    "status": "curated"
+  },
+  {
     "ayah1": "6:31",
     "ayah2": "6:69",
     "category": "",
@@ -2870,6 +2891,13 @@
     "status": "pending"
   },
   {
+    "ayah1": "6:152",
+    "ayah2": "17:34",
+    "category": "lafzi",
+    "note": "Both contain 'do not approach the orphan's property except in the best way until he reaches maturity'; 6:152 appears in a ten-command ethical list at the end of Al-An'am, 17:34 stands as a standalone injunction with the same wording.",
+    "status": "curated"
+  },
+  {
     "ayah1": "6:157",
     "ayah2": "7:52",
     "category": "",
@@ -2938,6 +2966,13 @@
     "category": "",
     "note": "",
     "status": "pending"
+  },
+  {
+    "ayah1": "6:164",
+    "ayah2": "39:7",
+    "category": "lafzi",
+    "note": "Both contain 'no bearer of burdens will bear the burden of another, then to your Lord is your return and He will inform you of what you used to do'; 6:164 closes the chapter's ethical commands, 39:7 is embedded in an address on gratitude.",
+    "status": "curated"
   },
   {
     "ayah1": "7:7",
@@ -4205,6 +4240,13 @@
     "category": "",
     "note": "",
     "status": "pending"
+  },
+  {
+    "ayah1": "9:33",
+    "ayah2": "48:28",
+    "category": "lafzi",
+    "note": "Both open with the Prophet's mission to make truth prevail over all religion; 9:33 (also 61:9) ends 'even if the polytheists dislike it,' while 48:28 ends 'and sufficient is Allah as witness' -- same mission, different closing.",
+    "status": "curated"
   },
   {
     "ayah1": "9:33",
@@ -5481,6 +5523,13 @@
     "status": "pending"
   },
   {
+    "ayah1": "12:40",
+    "ayah2": "53:23",
+    "category": "lafzi",
+    "note": "Both dismiss false deities as 'nothing but names you and your forefathers invented; Allah sent down no authority for them'; 12:40 is Yusuf's argument to his fellow prisoners, 53:23 addresses the pagan goddesses al-Lat, al-Uzza, and Manat.",
+    "status": "curated"
+  },
+  {
     "ayah1": "12:58",
     "ayah2": "12:64",
     "category": "",
@@ -6125,6 +6174,13 @@
     "status": "pending"
   },
   {
+    "ayah1": "16:43",
+    "ayah2": "21:7",
+    "category": "lafzi",
+    "note": "Verbatim: 'We sent before you only men to whom We revealed; so ask the people of knowledge if you do not know'; 16:43 responds to objections about the Prophet's humanity, 21:7 makes the same point in the opening of Al-Anbiya.",
+    "status": "curated"
+  },
+  {
     "ayah1": "16:53",
     "ayah2": "30:32",
     "category": "",
@@ -6340,6 +6396,13 @@
     "category": "",
     "note": "",
     "status": "pending"
+  },
+  {
+    "ayah1": "16:125",
+    "ayah2": "68:7",
+    "category": "lafzi",
+    "note": "Verbatim closing: 'your Lord knows best who has gone astray from His way and He knows best the rightly guided'; 16:125 follows the command to call to Allah's path with wisdom, 68:7 follows a prohibition against obeying the disbelievers.",
+    "status": "curated"
   },
   {
     "ayah1": "16:126",
@@ -7042,6 +7105,13 @@
     "status": "pending"
   },
   {
+    "ayah1": "20:71",
+    "ayah2": "26:49",
+    "category": "lafzi",
+    "note": "Both quote Pharaoh's response to the believing magicians: 'did you believe him before I gave you permission? Indeed he is your leader who taught you magic'; both follow with the threat of crucifixion on palm trunks.",
+    "status": "curated"
+  },
+  {
     "ayah1": "20:76",
     "ayah2": "26:51",
     "category": "",
@@ -7455,6 +7525,20 @@
     "status": "pending"
   },
   {
+    "ayah1": "22:14",
+    "ayah2": "22:23",
+    "category": "lafzi",
+    "note": "Verbatim repetition within Surah Al-Hajj at 22:14 and 22:23: 'indeed Allah will admit those who believe and do righteous deeds to gardens beneath which rivers flow'; see also 22:14/47:12 and 22:23/47:12 for the three-way repeat.",
+    "status": "curated"
+  },
+  {
+    "ayah1": "22:14",
+    "ayah2": "47:12",
+    "category": "lafzi",
+    "note": "Part of a three-way repeat (see 22:14/22:23 and 22:23/47:12): 'Allah will admit those who believe and do righteous deeds to gardens beneath which rivers flow'; 47:12 contrasts this with the cattle-like eating of disbelievers.",
+    "status": "curated"
+  },
+  {
     "ayah1": "22:17",
     "ayah2": "27:86",
     "category": "",
@@ -7481,6 +7565,13 @@
     "category": "",
     "note": "",
     "status": "pending"
+  },
+  {
+    "ayah1": "22:23",
+    "ayah2": "47:12",
+    "category": "lafzi",
+    "note": "Third pair in the three-way repeat (see 22:14/22:23 and 22:14/47:12): 'Allah will admit those who believe and do righteous deeds to gardens beneath which rivers flow'; 22:23 adds golden bracelets and silk, 47:12 contrasts with cattle-like disbelievers.",
+    "status": "curated"
   },
   {
     "ayah1": "22:33",
@@ -7770,6 +7861,13 @@
     "status": "pending"
   },
   {
+    "ayah1": "23:82",
+    "ayah2": "37:16",
+    "category": "lafzi",
+    "note": "Verbatim denial of resurrection: 'when we have died and become dust and bones, shall we indeed be resurrected?'; 23:82 is in a list of disbeliever objections, 37:16 is the Quraysh mocking the promise of resurrection.",
+    "status": "curated"
+  },
+  {
     "ayah1": "23:95",
     "ayah2": "41:33",
     "category": "",
@@ -7831,6 +7929,13 @@
     "category": "",
     "note": "",
     "status": "pending"
+  },
+  {
+    "ayah1": "24:61",
+    "ayah2": "48:17",
+    "category": "lafzi",
+    "note": "Verbatim shared clause: 'there is no blame on the blind, no blame on the lame, no blame on the ill'; 24:61 grants them exception from eating etiquette rules, 48:17 excuses them from the obligation of military expedition.",
+    "status": "curated"
   },
   {
     "ayah1": "25:2",
@@ -8006,6 +8111,13 @@
     "category": "",
     "note": "",
     "status": "pending"
+  },
+  {
+    "ayah1": "26:127",
+    "ayah2": "26:180",
+    "category": "lafzi",
+    "note": "Both are instances of the prophetic refrain repeated across five stories in Surah Al-Shu'ara: 'I ask you for no payment; my reward is only from the Lord of the worlds'; 26:127 is Hud's refrain, 26:180 is Shu'ayb's.",
+    "status": "curated"
   },
   {
     "ayah1": "26:131",
@@ -8379,6 +8491,13 @@
     "status": "pending"
   },
   {
+    "ayah1": "28:46",
+    "ayah2": "32:3",
+    "category": "lafzi",
+    "note": "Both describe the Quran's purpose as warning a people who received no warner before; 28:46 is embedded in the Moses narrative, 32:3 directly responds to the accusation that the Prophet invented the revelation.",
+    "status": "curated"
+  },
+  {
     "ayah1": "28:47",
     "ayah2": "40:24",
     "category": "",
@@ -8701,6 +8820,13 @@
     "status": "pending"
   },
   {
+    "ayah1": "30:9",
+    "ayah2": "40:82",
+    "category": "lafzi",
+    "note": "Both open with 'have they not traveled the earth and observed how was the end of those before them?'; 30:9 notes the predecessors were stronger and cultivated the land more, 40:82 uses the same rhetorical opening for a parallel point.",
+    "status": "curated"
+  },
+  {
     "ayah1": "30:11",
     "ayah2": "30:13",
     "category": "",
@@ -8958,6 +9084,13 @@
     "category": "",
     "note": "",
     "status": "pending"
+  },
+  {
+    "ayah1": "31:33",
+    "ayah2": "35:5",
+    "category": "lafzi",
+    "note": "Verbatim: 'the promise of Allah is truth, so let not the worldly life delude you and let not the Deceiver deceive you about Allah'; 31:33 and 35:5 are addressed identically to mankind with no variation in the shared text.",
+    "status": "curated"
   },
   {
     "ayah1": "32:3",
@@ -9665,6 +9798,13 @@
     "category": "",
     "note": "",
     "status": "pending"
+  },
+  {
+    "ayah1": "39:72",
+    "ayah2": "40:76",
+    "category": "lafzi",
+    "note": "Verbatim: 'enter the gates of Hell, abiding therein eternally; wretched is the residence of the arrogant'; 39:72 addresses those given their record in the left hand, 40:76 follows description of the proud disbelievers.",
+    "status": "curated"
   },
   {
     "ayah1": "40:6",
