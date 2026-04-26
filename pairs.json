@@ -127,6 +127,13 @@
   },
   {
     "ayah1": "2:34",
+    "ayah2": "20:116",
+    "category": "lafzi",
+    "note": "Both relate the command to the angels to prostrate to Adam and Iblees's refusal with identical wording up to 'aba'; 2:34 adds 'he was arrogant and became of the disbelievers,' 20:116 adds 'he disobeyed the command of his Lord.'",
+    "status": "curated"
+  },
+  {
+    "ayah1": "2:34",
     "ayah2": "38:74",
     "category": "addition_omission",
     "note": "Both describe Iblis refusing to prostrate and being among the disbelievers but 38:74 adds 'istakbara' (acted arrogantly) before 'wa kana min al-kafirin', which 2:34 omits.",
@@ -173,6 +180,13 @@
     "category": "",
     "note": "no textual connection; Waqar144 narrative-group false positive",
     "status": "dropped"
+  },
+  {
+    "ayah1": "2:49",
+    "ayah2": "7:141",
+    "category": "lafzi",
+    "note": "Both describe Pharaoh's oppression with the shared clause 'killing your sons and sparing your women, and in that was a great trial from your Lord'; the surrounding context differs (2:49 in a sequence of blessings, 7:141 recounting the rescue).",
+    "status": "curated"
   },
   {
     "ayah1": "2:53",
@@ -616,6 +630,13 @@
     "status": "pending"
   },
   {
+    "ayah1": "2:173",
+    "ayah2": "16:115",
+    "category": "lafzi",
+    "note": "Both enumerate the same four prohibitions (dead animals, blood, swine flesh, what is dedicated to other than Allah) plus the same duress exception; the only difference is word order: 2:173 says 'ma uhilla bihi li-ghayri Allah,' 16:115 says 'ma uhilla li-ghayri Allah bihi.'",
+    "status": "curated"
+  },
+  {
     "ayah1": "2:175",
     "ayah2": "22:52",
     "category": "",
@@ -992,6 +1013,13 @@
     "category": "",
     "note": "",
     "status": "pending"
+  },
+  {
+    "ayah1": "3:10",
+    "ayah2": "3:116",
+    "category": "lafzi",
+    "note": "Near-identical opening within the same surah: 'indeed those who disbelieve -- their wealth and children will never avail them against Allah'; 3:10 ends 'fuel of the Fire,' 3:116 ends 'companions of the Fire, abiding therein eternally.'",
+    "status": "curated"
   },
   {
     "ayah1": "3:10",
@@ -1407,6 +1435,13 @@
     "status": "pending"
   },
   {
+    "ayah1": "3:164",
+    "ayah2": "62:2",
+    "category": "lafzi",
+    "note": "Both describe the Prophet's mission with the same four verbs: reciting verses, purifying souls, and teaching the Book and wisdom; 3:164 frames it as a favor upon the believers, 62:2 frames it as a sending among the unlettered (al-ummiyyin).",
+    "status": "curated"
+  },
+  {
     "ayah1": "3:183",
     "ayah2": "22:41",
     "category": "",
@@ -1533,6 +1568,13 @@
     "status": "pending"
   },
   {
+    "ayah1": "4:43",
+    "ayah2": "5:6",
+    "category": "lafzi",
+    "note": "Both contain the tayammum clause for travelers, the ill, or the ritually impure; 4:43 is the earlier, shorter mention tied to prayer while impure, 5:6 is the full wudu + tayammum passage.",
+    "status": "curated"
+  },
+  {
     "ayah1": "4:45",
     "ayah2": "5:12",
     "category": "",
@@ -1573,6 +1615,13 @@
     "category": "",
     "note": "",
     "status": "pending"
+  },
+  {
+    "ayah1": "4:57",
+    "ayah2": "4:122",
+    "category": "lafzi",
+    "note": "Near-identical opening within An-Nisa: 'those who believe and do righteous deeds, We will admit them to gardens beneath which rivers flow, abiding forever'; 4:57 adds purified spouses and shade, 4:122 adds 'the promise of Allah, true.'",
+    "status": "curated"
   },
   {
     "ayah1": "4:63",
@@ -2049,6 +2098,13 @@
     "category": "",
     "note": "",
     "status": "pending"
+  },
+  {
+    "ayah1": "5:119",
+    "ayah2": "98:8",
+    "category": "lafzi",
+    "note": "Both share 'gardens with rivers flowing, abiding forever; Allah is pleased with them and they with Him'; 5:119 is the statement of the truthful (Isa affirming), 98:8 is the reward for believers from the People of the Book.",
+    "status": "curated"
   },
   {
     "ayah1": "6:3",
@@ -3080,6 +3136,13 @@
     "status": "pending"
   },
   {
+    "ayah1": "7:45",
+    "ayah2": "11:19",
+    "category": "lafzi",
+    "note": "Shared description: 'those who obstruct Allah's path and seek to make it crooked, and who disbelieve in the Hereafter'; 7:45 places them at the Fire scene, 11:19 introduces them as those who turn away from Allah's mercy.",
+    "status": "curated"
+  },
+  {
     "ayah1": "7:50",
     "ayah2": "29:63",
     "category": "",
@@ -3438,6 +3501,13 @@
   },
   {
     "ayah1": "7:73",
+    "ayah2": "11:61",
+    "category": "lafzi",
+    "note": "Both introduce Salih sent to Thamud with the same opening call to worship Allah alone; 7:73 continues with the she-camel as a sign, 11:61 continues with 'He produced you from the earth and settled you in it.'",
+    "status": "curated"
+  },
+  {
+    "ayah1": "7:73",
     "ayah2": "11:64",
     "category": "lafzi",
     "note": "Both warn Thamud about the she-camel of Allah as a sign for them. 7:73 threatens 'a painful punishment' (عَذَابٌ أَلِيمٌ); 11:64 threatens 'an imminent punishment' (عَذَابٌ قَرِيبٌ).",
@@ -3603,6 +3673,13 @@
     "category": "",
     "note": "",
     "status": "pending"
+  },
+  {
+    "ayah1": "7:85",
+    "ayah2": "11:84",
+    "category": "lafzi",
+    "note": "Both introduce Shu'ayb sent to Madyan with the same call to worship Allah alone; 7:85 continues with commands to fill the measure and scale justly, 11:84 echoes the same economic injunctions.",
+    "status": "curated"
   },
   {
     "ayah1": "7:85",
@@ -4604,6 +4681,13 @@
     "category": "",
     "note": "",
     "status": "pending"
+  },
+  {
+    "ayah1": "10:38",
+    "ayah2": "11:13",
+    "category": "lafzi",
+    "note": "Both contain the Quran challenge ending with 'call upon whom you can besides Allah if you are truthful'; 10:38 challenges to bring one surah like it, 11:13 challenges to bring ten fabricated surahs.",
+    "status": "curated"
   },
   {
     "ayah1": "10:41",
@@ -7049,6 +7133,13 @@
     "status": "pending"
   },
   {
+    "ayah1": "20:128",
+    "ayah2": "32:26",
+    "category": "lafzi",
+    "note": "Both ask 'does it not guide them how many We destroyed before them of nations whose dwellings they walk through?'; 20:128 opens with 'a-fa-lam' and 32:26 with 'a-wa-lam' -- the single letter change is the key difference.",
+    "status": "curated"
+  },
+  {
     "ayah1": "20:129",
     "ayah2": "50:38",
     "category": "",
@@ -7350,6 +7441,13 @@
     "status": "pending"
   },
   {
+    "ayah1": "22:8",
+    "ayah2": "31:20",
+    "category": "lafzi",
+    "note": "Verbatim: 'of the people is one who disputes about Allah without knowledge, guidance, or an illuminating book'; 22:8 continues with the arrogant disputer misleading others, 31:20 contrasts with a call to reflect on Allah's bestowed favors.",
+    "status": "curated"
+  },
+  {
     "ayah1": "22:13",
     "ayah2": "22:22",
     "category": "",
@@ -7467,6 +7565,13 @@
     "category": "",
     "note": "",
     "status": "pending"
+  },
+  {
+    "ayah1": "22:62",
+    "ayah2": "31:30",
+    "category": "lafzi",
+    "note": "Verbatim identical: 'that is because Allah is the Truth and what they call upon besides Him is falsehood, and because Allah is the Most High, the Grand'; 22:62 follows cosmic signs, 31:30 follows a statement about seeking shade from the sun.",
+    "status": "curated"
   },
   {
     "ayah1": "22:62",
@@ -7803,6 +7908,13 @@
     "category": "",
     "note": "",
     "status": "pending"
+  },
+  {
+    "ayah1": "25:59",
+    "ayah2": "32:4",
+    "category": "lafzi",
+    "note": "Both open with 'who created the heavens, earth, and what is between them in six days then established Himself above the Throne'; 25:59 directs to ask one well-informed (al-Rahman), 32:4 emphasizes no intercessor without His leave.",
+    "status": "curated"
   },
   {
     "ayah1": "25:69",
@@ -8281,6 +8393,13 @@
     "status": "pending"
   },
   {
+    "ayah1": "28:62",
+    "ayah2": "28:74",
+    "category": "lafzi",
+    "note": "Verbatim repetition within Surah Al-Qasas: 'and the Day He calls to them saying, where are My partners that you used to claim?'; the same call appears at 28:62 and again at 28:74 with the identical wording.",
+    "status": "curated"
+  },
+  {
     "ayah1": "28:72",
     "ayah2": "40:60",
     "category": "",
@@ -8673,6 +8792,13 @@
     "status": "pending"
   },
   {
+    "ayah1": "30:37",
+    "ayah2": "39:52",
+    "category": "lafzi",
+    "note": "Verbatim: 'Allah extends provision for whom He wills and restricts it; indeed in that are signs for a people who believe'; 30:37 follows a command on generosity to relatives, 39:52 is a rhetorical question to those who claim Allah wronged them.",
+    "status": "curated"
+  },
+  {
     "ayah1": "30:43",
     "ayah2": "35:38",
     "category": "",
@@ -8818,6 +8944,13 @@
     "category": "",
     "note": "",
     "status": "pending"
+  },
+  {
+    "ayah1": "31:29",
+    "ayah2": "35:13",
+    "category": "lafzi",
+    "note": "Both describe the merging of night and day and the subjugation of the sun and moon running to an appointed term; 31:29 closes 'Allah is aware of what you do,' 35:13 closes 'Allah is the Free of need, the Praiseworthy.'",
+    "status": "curated"
   },
   {
     "ayah1": "31:32",
@@ -9714,6 +9847,13 @@
     "category": "",
     "note": "",
     "status": "pending"
+  },
+  {
+    "ayah1": "43:83",
+    "ayah2": "70:42",
+    "category": "lafzi",
+    "note": "Verbatim: 'leave them to converse vainly and amuse themselves until they meet their Day which they are promised'; 43:83 follows mockery of the Hour, 70:42 follows the description of those who hasten the punishment.",
+    "status": "curated"
   },
   {
     "ayah1": "44:40",
