@@ -13,11 +13,12 @@ Only new Waqar144 pairs not already in pairs.json are added as pending.
 """
 
 import json
+import os
 import sys
 
-QURAN_JSON = "/var/www/hifzlink-staging/hifzlink/data/quran.json"
+QURAN_JSON = os.getenv("QURAN_JSON", "quran.json")
 WAQAR_JSON = "waqar_raw.json"
-SEED_JSON  = "/var/www/hifzlink-staging/hifzlink/data/relations.seed.json"
+SEED_JSON  = os.getenv("SEED_JSON", "relations.seed.json")
 OUTPUT     = "pairs.json"
 
 

@@ -9,10 +9,11 @@ Pairs already in pairs.json (any status) are excluded.
 """
 
 import json
+import os
 import re
 from collections import defaultdict
 
-QURAN_JSON  = "/var/www/hifzlink-staging/hifzlink/data/quran.json"
+QURAN_JSON  = os.getenv("QURAN_JSON", "quran.json")
 PAIRS_JSON  = "pairs.json"
 OUTPUT      = "candidates.json"
 

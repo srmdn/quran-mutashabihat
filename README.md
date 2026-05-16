@@ -12,7 +12,7 @@ All pairs are stored in `pairs.json` as a flat array:
     "ayah1": "2:255",
     "ayah2": "20:111",
     "category": "lafzi",
-    "note": "Both contain 'al-Hayy al-Qayyum' as divine attributes — the phrase appears identically in both verses.",
+    "note": "Both contain 'al-Hayy al-Qayyum' as divine attributes; the phrase appears identically in both verses.",
     "status": "curated"
   }
 ]
@@ -64,6 +64,22 @@ Consumers should filter by `status: "curated"` for production use. Pending pairs
 ```js
 const pairs = require('./pairs.json');
 const curated = pairs.filter(p => p.status === 'curated');
+```
+
+## Maintenance Scripts
+
+`build.py` rebuilds `pairs.json` from a Quran JSON file, `waqar_raw.json`, and a hifzlink `relations.seed.json` file.
+
+```bash
+QURAN_JSON=/path/to/quran.json \
+SEED_JSON=/path/to/relations.seed.json \
+python3 build.py
+```
+
+`find_candidates.py` generates `candidates.json` from the Quran JSON file and excludes pairs already present in `pairs.json`.
+
+```bash
+QURAN_JSON=/path/to/quran.json python3 find_candidates.py
 ```
 
 ## License
