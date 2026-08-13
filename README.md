@@ -1,6 +1,7 @@
 # quran-mutashabihat
 
-A curated dataset of mutashabihat (similar/repeated) Quran verse pairs, used to help huffaz distinguish verses that are easy to confuse during recitation.
+A curated dataset of mutashabihat (similar or repeated) Quran verse pairs. It
+helps huffaz distinguish verses that are easy to confuse during recitation.
 
 ## Format
 
@@ -35,16 +36,19 @@ All pairs are stored in `pairs.json` as a flat array:
 | `lafzi` | Word-for-word identical phrases in both verses |
 | `word_swap` | Same structure but one or more words differ |
 | `addition_omission` | One verse has a word or phrase the other lacks |
-| `context_shift` | Same wording but the surrounding context changes the meaning |
+| `ending_variation` | Verses differ primarily in their ending word or phrase |
+| `order_change` | The same words or phrases appear in a different order |
+| `pronoun_shift` | The verses differ primarily in their pronouns |
 | `structural` | Similar grammatical or rhetorical structure |
 
 Pairs are canonical: `ayah1` always has a lower absolute Quran position than `ayah2`.
 
 ## Dataset stats
 
-- **Curated**: 148 pairs (reviewed, with category and note)
-- **Pending**: 1,379 pairs (sourced from Waqar144 baseline, awaiting review)
-- **Total**: 1,527 pairs
+- **Curated**: 283 pairs (reviewed, with category and note)
+- **Pending**: 1,359 pairs (sourced from Waqar144 baseline, awaiting review)
+- **Dropped**: 15 pairs (reviewed and rejected)
+- **Total**: 1,657 pairs
 
 ## Data sources
 
@@ -55,11 +59,15 @@ Pending pairs are derived from:
 > Waqar Akram, *Quran Mutashabihat Data*
 > https://github.com/Waqar144/Quran_Mutashabihat_Data
 
-Multi-verse block entries from that dataset are excluded (single-verse pairs only). Attribution is preserved as requested by the original author.
+Multi-verse block entries from that dataset are excluded. The dataset contains
+single-verse pairs only. Attribution is preserved as requested by the original
+author.
 
 ## Usage
 
-Consumers should filter by `status: "curated"` for production use. Pending pairs have not been reviewed. Dropped pairs were reviewed and rejected (the `note` field explains why).
+Consumers must filter by `status: "curated"` for production use. Pending pairs
+have not been reviewed. Dropped pairs were reviewed and rejected; the `note`
+field explains why.
 
 ```js
 const pairs = require('./pairs.json');
@@ -68,7 +76,8 @@ const curated = pairs.filter(p => p.status === 'curated');
 
 ## Maintenance Scripts
 
-`build.py` rebuilds `pairs.json` from a Quran JSON file, `waqar_raw.json`, and a hifzlink `relations.seed.json` file.
+`build.py` rebuilds `pairs.json` from a Quran JSON file, `waqar_raw.json`, and a
+HifzLink `relations.seed.json` file.
 
 ```bash
 QURAN_JSON=/path/to/quran.json \
@@ -76,7 +85,8 @@ SEED_JSON=/path/to/relations.seed.json \
 python3 build.py
 ```
 
-`find_candidates.py` generates `candidates.json` from the Quran JSON file and excludes pairs already present in `pairs.json`.
+`find_candidates.py` generates `candidates.json` from the Quran JSON file and
+excludes pairs already present in `pairs.json`.
 
 ```bash
 QURAN_JSON=/path/to/quran.json python3 find_candidates.py
