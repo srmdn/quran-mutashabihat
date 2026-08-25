@@ -40,11 +40,11 @@ change live HifzLink SQLite rows as part of an ordinary dataset update.
 
 ## Shell commands
 
-Run all terminal commands through RTK. For example:
+Run terminal commands directly. For example:
 
 ```sh
-rtk git status
-rtk python3 -m json.tool pairs.json
+git status
+python3 -m json.tool pairs.json
 ```
 
 ## Commit hygiene
