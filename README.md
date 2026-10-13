@@ -25,9 +25,9 @@ All pairs are stored in `pairs.json` as a flat array:
 |-------|------|-------------|
 | `ayah1` | `"surah:ayah"` | First verse reference (lower absolute number) |
 | `ayah2` | `"surah:ayah"` | Second verse reference (higher absolute number) |
-| `category` | string | Similarity type (see below); empty for pending pairs |
-| `note` | string | Human-readable explanation of how the verses differ; empty for pending pairs |
-| `status` | `"curated"`, `"pending"`, or `"dropped"` | `curated` = reviewed with category + note; `pending` = sourced from Waqar144, not yet reviewed; `dropped` = reviewed and rejected (note explains why) |
+| `category` | string | Similarity type (see below); empty when the live relation has no category |
+| `note` | string | Human-readable explanation of how the verses differ; may be empty when live has no note |
+| `status` | `"curated"`, `"pending"`, or `"dropped"` | `curated` = accepted relation; for pairs in HifzLink production, category and note mirror live exactly, including blanks; `pending` = baseline or live candidate awaiting review; `dropped` = reviewed and rejected (note explains why) |
 
 ### Categories
 
@@ -45,10 +45,10 @@ Pairs are canonical: `ayah1` always has a lower absolute Quran position than `ay
 
 ## Dataset stats
 
-- **Curated**: 283 pairs (reviewed, with category and note)
-- **Pending**: 1,359 pairs (sourced from Waqar144 baseline, awaiting review)
+- **Curated**: 285 pairs (accepted relations, matching live values)
+- **Pending**: 1,359 pairs (baseline or live candidates awaiting review)
 - **Dropped**: 15 pairs (reviewed and rejected)
-- **Total**: 1,657 pairs
+- **Total**: 1,659 pairs
 
 ## Data sources
 

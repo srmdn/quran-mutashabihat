@@ -8,7 +8,8 @@ data source repository, not the HifzLink application or a runtime database.
 ## Scope and boundaries
 
 - Keep all pair data in `pairs.json`.
-- Treat `curated` pairs as reviewed production-quality data.
+- Treat `curated` pairs as accepted relations. For pairs present in live HifzLink,
+  production category and note values are authoritative, including blank values.
 - Treat `pending` pairs as leads that require human Quranic review.
 - Keep rejected candidates as `dropped` with an explanatory note when useful.
 - Do not copy `.env` files, live SQLite databases, app binaries, or VPS paths
@@ -21,8 +22,9 @@ data source repository, not the HifzLink application or a runtime database.
   marking a pair `curated`.
 - Preserve canonical ordering: `ayah1` has the lower Quran position.
 - Treat reversed pairs as duplicates.
-- Use one accurate category and a concise note that explains the memorization
-  risk.
+- For new curated pairs, use one accurate category and a concise note that
+  explains the memorization risk. When syncing an existing live pair, copy its
+  category and note exactly; do not infer replacements for blank live values.
 - Preserve source attribution and licensing notes for imported material.
 
 ## Workflow
