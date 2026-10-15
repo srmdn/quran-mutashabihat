@@ -86,7 +86,31 @@ python3 build.py
 ```
 
 `find_candidates.py` generates `candidates.json` from the Quran JSON file and
-excludes pairs already present in `pairs.json`.
+excludes pairs already present in `pairs.json`. Each result is labeled
+`Auto-suggested` and `needs-human-review`. Its `type` identifies the matching
+signal (`verbatim`, `jaccard`, or both). `suggested_category` is provisional
+and uses simple token-sequence heuristics to distinguish exact wording,
+additions or omissions, word swaps, changed endings, word order, and broader
+structural matches. Only normalized verse-for-verse identity is marked strong;
+all other categories are tentative. `category_suggestion_confidence` and
+`category_suggestion_basis` explain each guess. These suggestions
+do not change any pair's status or category in `pairs.json`. Optionally set
+`PRODUCTION_RELATIONS_JSON` to a private HifzLink relations export; the tool
+uses its verse-pair keys only to exclude live pairs and never copies export
+metadata into `candidates.json`. `review_priority` ranks shared phrases of at
+least eight words or Jaccard matches of at least 0.8 as high, phrases of at
+least six words or Jaccard matches of at least 0.7 as medium, and the rest as
+exploratory. These are search priorities only, not acceptance decisions.
+Generated `candidates.json` is a local review artifact. HifzLink's versioned
+`data/curation_candidates.json` is a compact copy used to initialize the
+private admin review queue; candidates remain outside the public catalog until
+an administrator accepts them.
+
+To prepare the app's compact review file after generating candidates:
+
+```bash
+python3 export_hifzlink_candidates.py candidates.json /path/to/hifzlink/data/curation_candidates.json
+```
 
 ```bash
 QURAN_JSON=/path/to/quran.json python3 find_candidates.py
@@ -97,3 +121,20 @@ QURAN_JSON=/path/to/quran.json python3 find_candidates.py
 Curated data: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 Pending pairs derived from Waqar144's dataset: no formal license; attribution required (see above).
+
+## Refining automatic runtime labels
+
+`refine_hifzlink_curation.py` plans changes against a local curation snapshot,
+preserves all human decisions, and applies the reviewed plan to an explicit local
+copy with a backup and stale-state guard. Plans include private review notes and
+must stay outside Git. Use `plan --help`, `apply --help`, and `export --help`.
+
+Build the analyzer from the matching HifzLink feature revision with
+`go build -o /tmp/hifzlink-analyze ./scripts/analyze_curation`. The analyzer owns
+the `wording-v2` rules, shared with the application; see its `docs/CURATION.md`
+for thresholds, priority, highlights, and limitations. Use `export` to refine
+compact candidate suggestions before importing them. The earlier candidate
+detector output alone is not the final label assignment.
+
+This workflow does not change `pairs.json` or overwrite curated production values.
+A production update requires a fresh snapshot and separate explicit approval.
