@@ -11,11 +11,12 @@ Pairs already in pairs.json (any status) are excluded.
 import json
 import os
 import re
-from collections import defaultdict
+from collections import Counter, defaultdict
 
 QURAN_JSON  = os.getenv("QURAN_JSON", "quran.json")
 PAIRS_JSON  = "pairs.json"
 OUTPUT      = "candidates.json"
+PRODUCTION_RELATIONS_JSON = os.getenv("PRODUCTION_RELATIONS_JSON", "")
 
 MIN_PHRASE  = 4      # min shared phrase length (words)
 MIN_JACCARD = 0.65   # min Jaccard for near-identical
@@ -46,6 +47,49 @@ def jaccard(a, b):
     return len(sa & sb) / len(sa | sb)
 
 
+def is_subsequence(shorter, longer):
+    if len(shorter) >= len(longer):
+        return False
+    i = 0
+    for word in longer:
+        if i < len(shorter) and shorter[i] == word:
+            i += 1
+    return i == len(shorter)
+
+
+def suggest_category(tokens1, tokens2, shared_phrase_len):
+    """Return a provisional category, confidence, and explainable heuristic."""
+    if tokens1 == tokens2:
+        return "lafzi", "strong", "normalized_verses_identical"
+
+    shorter, longer = (tokens1, tokens2) if len(tokens1) < len(tokens2) else (tokens2, tokens1)
+    if is_subsequence(shorter, longer):
+        return "addition_omission", "tentative", "one_verse_adds_ordered_words"
+
+    if Counter(tokens1) == Counter(tokens2):
+        return "order_change", "tentative", "same_words_different_order"
+
+    prefix_len = 0
+    for a, b in zip(tokens1, tokens2):
+        if a != b:
+            break
+        prefix_len += 1
+    if prefix_len >= 4 and prefix_len * 2 >= min(len(tokens1), len(tokens2)):
+        return "ending_variation", "tentative", "shared_opening_different_later_words"
+
+    if len(tokens1) == len(tokens2):
+        differences = sum(a != b for a, b in zip(tokens1, tokens2))
+        if differences <= max(2, len(tokens1) // 5):
+            return "word_swap", "tentative", "same_length_few_word_changes"
+
+    if shared_phrase_len >= 4:
+        if shared_phrase_len * 5 >= min(len(tokens1), len(tokens2)) * 4:
+            return "lafzi", "tentative", "shared_phrase_covers_most_of_shorter_verse"
+        return "lafzi", "tentative", "shared_exact_phrase"
+
+    return "structural", "tentative", "high_word_overlap_without_clearer_pattern"
+
+
 def main():
     with open(QURAN_JSON) as f:
         quran = json.load(f)
@@ -66,6 +110,24 @@ def main():
         print(f"Excluding {len(existing)} existing pairs")
     except FileNotFoundError:
         existing = set()
+
+    # Also exclude live production relations when a private snapshot is supplied.
+    # Only canonical pair keys are read; no production metadata is copied to output.
+    production_count = 0
+    if PRODUCTION_RELATIONS_JSON:
+        with open(PRODUCTION_RELATIONS_JSON) as f:
+            snapshot = json.load(f)
+        if snapshot.get("workload") != "hifzlink" or not isinstance(snapshot.get("records"), list):
+            raise ValueError("PRODUCTION_RELATIONS_JSON is not a HifzLink relations export")
+        for rel in snapshot["records"]:
+            a1 = ref_to_abs.get(f"{rel['ayah1_surah']}:{rel['ayah1_ayah']}")
+            a2 = ref_to_abs.get(f"{rel['ayah2_surah']}:{rel['ayah2_ayah']}")
+            if not a1 or not a2:
+                raise ValueError("production snapshot contains an unknown ayah reference")
+            existing.add((min(a1, a2), max(a1, a2)))
+            production_count += 1
+        print(f"Excluding {production_count} live production pairs from snapshot")
+    print(f"Total unique existing pairs excluded: {len(existing)}")
 
     verse_tokens = [tokenize(e['text_ar']) for e in quran]
 
@@ -149,6 +211,8 @@ def main():
         entry = {
             "ayah1": abs_to_ref[a1],
             "ayah2": abs_to_ref[a2],
+            "curation_label": "Auto-suggested",
+            "review_state": "needs-human-review",
         }
 
         if key in best_phrase:
@@ -165,11 +229,33 @@ def main():
                 entry["type"] = "jaccard"
             entry["jaccard"] = round(j, 3)
 
+        suggested, confidence, basis = suggest_category(
+            verse_tokens[a1 - 1], verse_tokens[a2 - 1], entry.get("phrase_len", 0)
+        )
+        entry["suggested_category"] = suggested
+        entry["category_suggestion_confidence"] = confidence
+        entry["category_suggestion_basis"] = basis
+
+        phrase_len = entry.get("phrase_len", 0)
+        jaccard_score = entry.get("jaccard", 0)
+        if phrase_len >= 8 or jaccard_score >= 0.8:
+            entry["review_priority"] = "high"
+        elif phrase_len >= 6 or jaccard_score >= 0.7:
+            entry["review_priority"] = "medium"
+        else:
+            entry["review_priority"] = "exploratory"
+
         score = entry.get("phrase_len", 0) * 2 + entry.get("jaccard", 0) * 10
         entry["score"] = round(score, 2)
         output.append(entry)
 
-    output.sort(key=lambda x: -x["score"])
+    priority_order = {"high": 0, "medium": 1, "exploratory": 2}
+    output.sort(key=lambda x: (
+        priority_order[x["review_priority"]],
+        -x["score"],
+        x["ayah1"],
+        x["ayah2"],
+    ))
 
     with open(OUTPUT, "w") as f:
         json.dump(output, f, indent=2, ensure_ascii=False)
